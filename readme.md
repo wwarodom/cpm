@@ -1,6 +1,7 @@
 ### CPM: Caddy Php Mariadb
-CPM is a docker container source that provides caddy web server and maria database which aims to use with nodejs and express server. This script is recommended to use on Debian 9.4.
-  - Pre-Requirements: docker docker-compose nodejs
+CPM is a docker container source that provides Caddy web server and mariadb. It aims to use with Nodejs and Express server. 
+This script is recommended to use on Debian 9.4.
+  - Pre-Requirements: docker docker-compose (provide on install_docker_node.sh script)
 
  
 #### Steps
