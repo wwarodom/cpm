@@ -1,0 +1,5 @@
+{
+	"domain": "apiexample.werapun.com",
+	"certUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/032ce2c342d39acd79782c42a4252e907d3b",
+	"certStableUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/032ce2c342d39acd79782c42a4252e907d3b"
+}
