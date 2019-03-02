@@ -1,5 +1,0 @@
-{
-	"domain": "example.werapun.com",
-	"certUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/0311f16786751602a65758c4cfa3b8cc9ab4",
-	"certStableUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/0311f16786751602a65758c4cfa3b8cc9ab4"
-}
