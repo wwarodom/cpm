@@ -31,7 +31,7 @@ This script is recommended to use on Debian 9.7 x64. Some Dockerfiles are taken 
   - Open browser web server https://example.werapun.com 
     - Reverse proxy: https://apiexample.werapun.com
 
-#### docker IP 
+#### Docker container IP 
 If you need to assign another private IPs for containers, please create `/etc/docker/daemon.json` and restart docker service.
 ```
 {
