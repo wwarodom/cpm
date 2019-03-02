@@ -1,0 +1,26 @@
+example.werapun.com {
+#    import authlist.conf
+    root /var/www/public
+    fastcgi / php-fpm:9000 php {
+        index index.php
+    }
+    cors
+    gzip
+    browse
+    log /var/log/caddy/access.log
+    errors /var/log/caddy/error.log
+    tls wwarodom@gmail.com
+}
+
+http://example.werapun.com {
+    redir https://example.werapun.com{uri}
+}
+
+apiexample.werapun.com {
+    proxy /  http://example.werapun.com:5000/
+    gzip
+    browse
+    log /var/log/caddy/access.log
+    errors /var/log/caddy/error.log
+}
+
