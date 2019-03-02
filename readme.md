@@ -1,8 +1,9 @@
 ### CPM: Caddy Php Mariadb
 CPM is a docker container that provides Caddy web server and mariadb. It aims to use with Nodejs as APIs.
 This script is recommended to use on Debian 9.7 x64. Some Dockerfiles are taken from Laradock.
-  - **Pre-Requirements**: docker docker-compose (provide on install_docker_node.sh script)
-  - You MUST have ***domain*** (and replace ***werapun.com*** to your domain)
+
+#### Pre-Requirements  
+  - You MUST have ***DOMAIN*** (and replace ***werapun.com*** to your domain)
   - Install git:  `$ sudo apt update && sudo apt install --yes git`
 
 #### Steps
