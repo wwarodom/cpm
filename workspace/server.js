@@ -4,5 +4,5 @@ var server = http.createServer(function(req, res){
    res.end('Hello world\n');
 });
 
-server.listen(8000);
+server.listen(5000);
 console.log('Server is ready!');
