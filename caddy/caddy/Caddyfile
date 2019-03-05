@@ -24,3 +24,15 @@ apiexample.werapun.com {
     errors /var/log/caddy/error.log
 }
 
+# Must export port 2015 in docker-compose.yml
+http://localhost {
+    root /var/www/public
+    fastcgi / php-fpm:9000 php {
+        index index.php
+    }
+    cors
+    gzip
+    browse
+    log /var/log/caddy/access.log
+    errors /var/log/caddy/error.log
+}
