@@ -1,4 +1,4 @@
-example.werapun.com {
+d2x.medizerva.com {
 #    import authlist.conf
     root /var/www/public
     fastcgi / php-fpm:9000 php {
@@ -12,25 +12,12 @@ example.werapun.com {
     tls wwarodom@gmail.com
 }
 
-http://example.werapun.com {
-    redir https://example.werapun.com{uri}
+http://d2x.medizerva.com {
+    redir https://d2x.medizerva.com{uri}
 }
 
-apiexample.werapun.com {
-    proxy /  http://example.werapun.com:5000/
-    gzip
-    browse
-    log /var/log/caddy/access.log
-    errors /var/log/caddy/error.log
-}
-
-# Must export port 2015 in docker-compose.yml
-http://localhost {
-    root /var/www/public
-    fastcgi / php-fpm:9000 php {
-        index index.php
-    }
-    cors
+d2xapi.medizerva.com {
+    proxy /  http://d2x.medizerva.com:5000/
     gzip
     browse
     log /var/log/caddy/access.log
